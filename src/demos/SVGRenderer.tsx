@@ -10,7 +10,7 @@ import {
   ReconcilerRoot,
 } from '@react-three/fiber'
 import useMeasure, { Options as ResizeOptions } from 'react-use-measure'
-import { mergeRefs } from 'react-merge-refs'
+import mergeRefs from 'react-merge-refs'
 import { SVGRenderer } from 'three-stdlib'
 
 function TorusKnot() {
