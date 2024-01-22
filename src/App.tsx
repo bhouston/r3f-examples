@@ -3,6 +3,7 @@ import { useErrorBoundary } from 'use-error-boundary'
 import { Route, useRoute, Redirect } from 'wouter'
 
 import { Global, Loading, Page, DemoPanel, Dot, Error } from './styles'
+import { ContinuousEventPriority } from 'react-reconciler/constants';
 
 import * as demos from './demos'
 
