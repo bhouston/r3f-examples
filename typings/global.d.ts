@@ -1,7 +1,7 @@
 import { ReactThreeFiber } from '@react-three/fiber'
 import { OrbitControls } from 'three-stdlib'
 
-import { DotMaterial } from '../src/demos/Pointcloud'
+import { DotMaterial } from '../src/demos/PointCloud'
 
 declare module '@react-three/fiber' {
   interface ThreeElements {
